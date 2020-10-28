@@ -1,7 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function countCats(array) {
-  throw new CustomError('Not implemented');
+  // throw new CustomError('Not implemented');
   let b = array.flat(Infinity)
   let cats = b.filter(arr => arr==='^^')
   if(cats.length === 0){
